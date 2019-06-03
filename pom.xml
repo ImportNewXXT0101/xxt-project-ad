@@ -18,7 +18,7 @@
     </modules>
 
     <name>project-ad-spring-cloud</name>
-    <description>Project for imooc ad springcloud</description>
+    <description>Project for project ad springcloud</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

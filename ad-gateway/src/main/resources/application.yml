@@ -9,15 +9,15 @@ eureka:
        defaultZone: http://localhost:8000/eureka/
 
 zuul:
-  prefix: /imooc
+  prefix: /project
   routes:
     sponsor:
       path: /ad-sponsor/**
       serviceId: eureka-client-ad-sponsor
       strip-prefix: false
-      #127.0.0.1:9000/imooc/ad-sponsor/create/adPlan
+      #127.0.0.1:9000/project/ad-sponsor/create/adPlan
     search:
       path: /ad-search/**
       serviceId: eureka-client-ad-search
       strip-prefix: false
-      #127.0.0.1:9000/imooc/ad-search/fetchAds
+      #127.0.0.1:9000/project/ad-search/fetchAds
