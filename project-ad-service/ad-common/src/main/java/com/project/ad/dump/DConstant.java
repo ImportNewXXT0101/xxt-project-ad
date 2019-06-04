@@ -2,8 +2,6 @@ package com.project.ad.dump;
 
 /**
  * @Description: 导出文件名称
- * @Author: ChengChuanQiang
- * @Date: 2019/5/12 9:11
  */
 public class DConstant {
 
