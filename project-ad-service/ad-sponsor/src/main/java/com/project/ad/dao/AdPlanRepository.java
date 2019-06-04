@@ -7,8 +7,6 @@ import java.util.List;
 
 /**
  * @Description:
- * @Author: ChengChuanQiang
- * @Date: 2019/5/4 9:59
  */
 public interface AdPlanRepository extends JpaRepository<AdPlan, Long> {
 
