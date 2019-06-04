@@ -5,8 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  * @Description:
- * @Author: ChengChuanQiang
- * @Date: 2019/5/4 9:57
  */
 public interface AdUserRepository extends JpaRepository<AdUser, Long> {
 

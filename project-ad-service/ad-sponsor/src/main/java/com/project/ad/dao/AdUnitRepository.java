@@ -7,8 +7,6 @@ import java.util.List;
 
 /**
  * @Description:
- * @Author: ChengChuanQiang
- * @Date: 2019/5/4 10:06
  */
 public interface AdUnitRepository extends JpaRepository<AdUnit, Long> {
 
